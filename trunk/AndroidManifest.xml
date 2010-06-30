@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="org.aksonov.mages"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:debuggable="true" android:label="@string/main" android:name="MagesApplication">
+		<activity android:name=".Main" android:label="@string/main">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category
+					android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".Chess" android:label="@string/chess"
+			android:icon="@drawable/chess">
+			<intent-filter android:label="@string/chess">
+				<action android:name="mages.intent.action.GAME" />
+				<category
+					android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".Lobby" android:label="@string/lobby">
+			<intent-filter android:priority="-1000">
+				<action android:name="mages.intent.action.LOBBY" />
+				<data android:mimeType="mages/*" />
+				<category
+					android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".InGame"
+			android:label="@string/in_game">
+			<intent-filter android:priority="-1000">
+				<action android:name="mages.intent.action.IN_GAME" />
+				<data android:mimeType="mages/*" />
+				<category
+					android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".Connect4"
+			android:label="@string/connect4" android:icon="@drawable/connect4">
+			<intent-filter android:label="@string/connect4">
+				<action android:name="mages.intent.action.GAME" />
+				<category
+					android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".GASPServerConfigure"
+			android:label="@string/gasp_configure">
+			<intent-filter>
+				<action
+					android:name="org.aksonov.mages.services.gasp.IGASPServerConfiguration" />
+				<action
+					android:name="com.aksonov.gasp.client.service.IGameServer" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="mages.intent.action.CONFIGURE" />
+				<category
+					android:name="org.aksonov.mages.services.gasp.GASPGameServerService" />
+				<category
+					android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".LocalServerConfigure"
+			android:label="@string/local_configure">
+			<intent-filter>
+				<action android:name="mages.intent.action.CONFIGURE" />
+				<category
+					android:name="org.aksonov.mages.services.chess.LocalChessServerService" />
+				<category
+					android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="mages.intent.action.CONFIGURE" />
+				<category
+					android:name="org.aksonov.mages.services.connect4.LocalConnect4ServerService" />
+				<category
+					android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+
+		<service android:name=".services.gasp.GASPGameServerService"
+			android:process=":remote" android:label="@string/gasp_server">
+			<intent-filter>
+				<action
+					android:name="org.aksonov.mages.services.gasp.IGASPServerConfiguration" />
+				<action
+					android:name="org.aksonov.mages.services.IGameServer" />
+			</intent-filter>
+			<intent-filter android:label="@string/gasp_server">
+				<action android:name="mages.intent.action.SERVE" />
+				<data android:mimeType="mages/*" />
+			</intent-filter>
+		</service>
+
+		<service android:name=".services.chess.LocalChessServerService"
+			android:process=":remote" android:label="@string/local_server">
+			<intent-filter>
+				<action
+					android:name="org.aksonov.mages.services.IGameServer" />
+			</intent-filter>
+			<intent-filter>
+							<action
+					android:name="org.aksonov.mages.services.ILocalServerConfiguration" />
+				<data android:mimeType="mages/chess" />
+			</intent-filter>
+			<intent-filter android:label="@string/gasp_server">
+				<action android:name="mages.intent.action.SERVE" />
+				<data android:mimeType="mages/chess" />
+			</intent-filter>
+		</service>
+
+		<service
+			android:name=".services.connect4.LocalConnect4ServerService"
+			android:process=":remote" android:label="@string/local_server">
+			<intent-filter>
+				<action
+					android:name="org.aksonov.mages.services.IGameServer" />
+			</intent-filter>
+			<intent-filter>
+				<action
+					android:name="org.aksonov.mages.services.ILocalServerConfiguration" />
+				<data android:mimeType="mages/connect4" />
+			</intent-filter>
+			<intent-filter android:label="@string/gasp_server">
+				<action android:name="mages.intent.action.SERVE" />
+				<data android:mimeType="mages/connect4" />
+			</intent-filter>
+		</service>
+
+		<service
+			android:name=".services.chess.test.RobotChessPlayerService"
+			android:process=":remote"
+			android:label="@string/android_chess_repeater">
+
+			<intent-filter>
+				<action
+					android:name="org.aksonov.mages.services.IGamePlayerFactory" />
+			</intent-filter>
+
+			<intent-filter
+				android:label="@string/android_chess_repeater">
+				<action
+					android:name="mages.intent.action.PLAYER_FACTORY" />
+				<data android:mimeType="mages/chess" />
+			</intent-filter>
+		</service>
+
+		<service
+			android:name=".services.connect4.test.RobotConnect4PlayerService"
+			android:process=":remote"
+			android:label="@string/android_chess_repeater">
+
+			<intent-filter>
+				<action
+					android:name="org.aksonov.mages.services.IGamePlayerFactory" />
+			</intent-filter>
+
+			<intent-filter
+				android:label="@string/android_chess_repeater">
+				<action
+					android:name="mages.intent.action.PLAYER_FACTORY" />
+				<data android:mimeType="mages/connect4" />
+			</intent-filter>
+		</service>
+
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" /> 
+    <uses-sdk android:minSdkVersion="3" />
+</manifest> 
