@@ -1023,6 +1023,7 @@ public class GASPGameServer extends IGameServer.Stub {
 				player.onLogin(playerInfo);
 
 				player.setServer(this);
+                Log.i("login", "LOGIN! Putting player info to session!"+session);
 				players.put(session, player);
 			}
 		}
@@ -1222,6 +1223,7 @@ public class GASPGameServer extends IGameServer.Stub {
 	 */
 	
 	public void disconnect(int session) throws RemoteException {
+        Log.i("GASPGameServer","disconnect user from session:"+session);
 		mHandler.removeMessages(LOBBY);
 		// mHandler.removeMessages(SEND);
 		// mHandler.removeMessages(RECEIVE);

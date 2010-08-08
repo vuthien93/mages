@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+  Copyright 2004 The Apache Software Foundation
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+ 
+    <display-name>Mages - Multiplayer Game Engine</display-name>
+    <description>
+      A multiplayer game services platform for mobiles based on Open Mobile Alliance specifications.
+    </description>
+    
+    <!-- Define example application events listeners -->
+    <!--<listener>
+        <listener-class>listeners.ContextListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>listeners.SessionListener</listener-class>
+    </listener>-->
+
+    <!-- Servlet LobbyServlet : servlet chargé du service de lobbying, ie trouver les parties disponibles d'un jeu -->
+    
+    <servlet>
+        <servlet-name>ChatServlet</servlet-name>
+        <servlet-class>org.mega.gasp.platform.servlets.ChatServlet</servlet-class>
+    </servlet>
+
+    
+    <servlet>
+        <servlet-name>Lobby</servlet-name>
+        <servlet-class>org.mega.gasp.platform.servlets.Lobby</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Lobby</servlet-name>
+        <url-pattern>/servlet/Lobby</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Servlet FirstLogin : servlet chargé de créer un actor si l'utilisateur possède les droits d'accés à l'appli -->
+    
+    <servlet>
+        <servlet-name>FirstLogin</servlet-name>
+        <servlet-class>org.mega.gasp.platform.servlets.FirstLogin</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FirstLogin</servlet-name>
+        <url-pattern>/servlet/FirstLogin</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Servlet Login : servlet chargé du login de l'utilisateur possédant déjà son actorID -->
+    
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>org.mega.gasp.platform.servlets.Login</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/servlet/Login</url-pattern>
+    </servlet-mapping>
+    
+     <!-- Servlet Login : servlet chargé du login de l'utilisateur possédant déjà son actorID -->
+    
+    <servlet>
+        <servlet-name>Join</servlet-name>
+        <servlet-class>org.mega.gasp.platform.servlets.Join</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Join</servlet-name>
+        <url-pattern>/servlet/Join</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Servlet Create: servlet chargé de créer une application instance privée ou publique -->
+    
+    <servlet>
+        <servlet-name>Create</servlet-name>
+        <servlet-class>org.mega.gasp.platform.servlets.Create</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>CreateAI</servlet-name>
+        <servlet-class>org.mega.gasp.platform.servlets.CreateAI</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Create</servlet-name>
+        <url-pattern>/servlet/Create</url-pattern>
+    </servlet-mapping>
+    
+
+    <servlet-mapping>
+        <servlet-name>CreateAI</servlet-name>
+        <url-pattern>/servlet/CreateAI</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Servlet PlatformState: servlet chargé de monitoré la platforme -->
+    <servlet>
+        <servlet-name>PlatformState</servlet-name>
+        <servlet-class>org.mega.gasp.platform.servlets.PlatformState</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>PlatformState</servlet-name>
+        <url-pattern>/servlet/PlatformState</url-pattern>
+    </servlet-mapping>
+    
+    
+     <!-- Servlet InGame: servlet chargé de récupérer les SendData() client -->
+    <servlet>
+        <servlet-name>InGame</servlet-name>
+        <servlet-class>org.mega.gasp.platform.servlets.InGame</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>InGameOutput</servlet-name>
+        <servlet-class>org.mega.gasp.platform.servlets.InGameOutput</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>InGameCombined</servlet-name>
+        <servlet-class>org.mega.gasp.platform.servlets.InGameCombined</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>LobbyOutput</servlet-name>
+        <servlet-class>org.mega.gasp.platform.servlets.LobbyOutput</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>Invite</servlet-name>
+        <servlet-class>org.mega.gasp.platform.servlets.Invite</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>InGameInput</servlet-name>
+        <servlet-class>org.mega.gasp.platform.servlets.InGameInput</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>InGame</servlet-name>
+        <url-pattern>/servlet/InGame</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>InGameOutput</servlet-name>
+        <url-pattern>/servlet/InGameOutput</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>InGameCombined</servlet-name>
+        <url-pattern>/servlet/InGameCombined</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet-mapping>
+        <servlet-name>LobbyOutput</servlet-name>
+        <url-pattern>/servlet/LobbyOutput</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet-mapping>
+        <servlet-name>Invite</servlet-name>
+        <url-pattern>/servlet/Invite</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>InGameInput</servlet-name>
+        <url-pattern>/servlet/InGameInput</url-pattern>
+    </servlet-mapping>
+    
+     <!-- Servlet StartAI: servlet chargé de lancer la game server logic -->
+    <servlet>
+        <servlet-name>StartAI</servlet-name>
+        <servlet-class>org.mega.gasp.platform.servlets.StartAI</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>StartAI</servlet-name>
+        <url-pattern>/servlet/StartAI</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Servlet EndAI: servlet chargé de stopper la game server logic -->
+    <servlet>
+        <servlet-name>EndAI</servlet-name>
+        <servlet-class>org.mega.gasp.platform.servlets.EndAI</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EndAI</servlet-name>
+        <url-pattern>/servlet/EndAI</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Servlet QuitAI: servlet chargé de quitter l'AI en cours -->
+    <servlet>
+        <servlet-name>QuitAI</servlet-name>
+        <servlet-class>org.mega.gasp.platform.servlets.QuitAI</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>QuitAI</servlet-name>
+        <url-pattern>/servlet/QuitAI</url-pattern>
+    </servlet-mapping>
+    
+     <!-- Servlet Name: servlet chargé de réaliser le changement de pseudo -->
+    
+    <servlet>
+        <servlet-name>Name</servlet-name>
+        <servlet-class>org.mega.gasp.platform.servlets.Name</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Name</servlet-name>
+        <url-pattern>/servlet/Name</url-pattern>
+    </servlet-mapping>
+    
+    
+    <!-- Servlet Quit: servlet chargé de réaliser le délogguage du client -->
+    
+    <servlet>
+        <servlet-name>Quit</servlet-name>
+        <servlet-class>org.mega.gasp.platform.servlets.Quit</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Quit</servlet-name>
+        <url-pattern>/servlet/Quit</url-pattern>
+    </servlet-mapping>
+    
+
+    <servlet-mapping>
+        <servlet-name>ChatServlet</servlet-name>
+        <url-pattern>/servlet/ChatServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+
+    <!-- Reference to the GASP DB DataSource -->
+
+    <resource-ref>
+      <description>
+        Resource reference to a factory for java.sql.Connection
+        instances that may be used for talking to a particular
+        database that is configured in the server.xml file.
+      </description>
+      <res-ref-name>java:comp/env/jdbc/gaspdb</res-ref-name>
+      <res-type>
+        javax.sql.DataSource
+      </res-type>
+      <res-auth>
+        Container
+      </res-auth>
+    </resource-ref>
+
+</web-app>

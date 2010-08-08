@@ -1,23 +1,220 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CCaseConfig">
-    <option name="checkoutReserved" value="false" />
-    <option name="markExternalChangeAsUpToDate" value="true" />
-    <option name="checkInUseHijack" value="true" />
-    <option name="useUcmModel" value="true" />
-    <option name="synchOutside" value="false" />
-    <option name="isHistoryResticted" value="true" />
-    <option name="useIdenticalSwitch" value="true" />
-    <option name="synchActivitiesOnRefresh" value="true" />
-    <option name="lastScr" value="" />
-    <option name="scrTextFileName" value="" />
-    <option name="historyRevisionsNumber" value="4" />
+  <component name="BuildServerSettings">
+    <option name="HISTORY" value="" />
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="PASSWORD" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_NAME" />
+    <option name="INSPECTIONS_PROJECT_ID" />
+    <option name="INSPECTIONS_BUILD_TYPE_ID" />
+    <option name="DUPLICATES_BUILD_TYPE_NAME" />
+    <option name="DUPLICATES_PROJECT_ID" />
+    <option name="DUPLICATES_BUILD_TYPE_ID" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_USER" value="true" />
+    <option name="FILTER_REMOTE_RUN_TREE" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <TreeState key="project">
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Root" />
+          <option name="myItemType" value="jetbrains.buildServer.tree.descriptors.RootDescriptor" />
+        </PATH_ELEMENT>
+      </PATH>
+    </TreeState>
+    <TreeState key="changes">
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Root" />
+          <option name="myItemType" value="jetbrains.buildServer.tree.descriptors.RootDescriptor" />
+        </PATH_ELEMENT>
+      </PATH>
+    </TreeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="9954d61c-5f63-4426-bf78-8e6091435050" name="Default" comment="" />
+    <list default="true" readonly="true" id="94586752-6b76-4b5b-958e-9faaf1a55781" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/Name.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/EventListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event/impl/DataEventImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/Helper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/Actor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/aksonov/mages/chess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event/impl/EndEventImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/GameTimerCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event/impl/StartEventImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event/Event.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/Quit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/BaseGameTimerCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/utils" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/listener/OnJoinEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/InGame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/lib/commons-httpclient-3.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mages.iws" afterPath="$PROJECT_DIR$/Mages.iws" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/aksonov/mages/chess/server" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/resources" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/connection" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/GameTimer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/mega/gasp/moods" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/PlatformState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event/impl/EventImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/moods/CustomTypes.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/Join.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/Board.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/entities/GameEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/tools/Logger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/aksonov/mages/connect4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/connection/CustomTypesRequestEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services/IPlayerGameListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/Lobby.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/aksonov" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/resources/WEB-INF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/impl/ActorImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/impl/LobbyImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event/JoinEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/chess/ChessBoard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/impl/SessionImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/DBManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/listener/OnStartEvent.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/db/gaspdb.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/org/aksonov/mages/connection/ConnectionManager.java" afterPath="$PROJECT_DIR$/client/src/org/aksonov/mages/connection/ConnectionManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/server.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/aksonov/mages/server/Log4Logger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/bluetooth" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/server/GASPServer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event/QuitEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/connect4/Connect4Board.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org/aksonov" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/FirstLogin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/InGameInput.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/utils/PropertiesReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/aksonov/mages/connect4/server" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/entities/Note.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/server" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services/gasp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/aksonov/mages/connect4/CustomTypes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/impl/ApplicationInstanceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/impl/IDManagerImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/listener" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/listener/OnQuitEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/client" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/entities/PlayerInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/CreateAI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/mega/gasp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/client.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/moods/CustomTypes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/aksonov/mages/server" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/tools/ChunkedClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/entities/GameSettings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/BaseBoard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/listener/OnDataEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/impl/DBManagerImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/mega/gasp/moods/CustomTypes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/Login.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event/DataEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org/aksonov/mages/R.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/mega" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services/IPlayerLobbyListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/Invite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/aksonov/mages" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services/IGamePlayerFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services/IGamePlayer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/res/xml/settings.xml" afterPath="$PROJECT_DIR$/client/res/xml/settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/entities/Move.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/ActorSession.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/aksonov/mages/server/MagesServer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/connect4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event/impl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/chess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/GameCustomTypes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/common.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/ChatServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/Platform.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/QuitAI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/bluetooth/miniplatform" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/DataSender.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/bluetooth/miniplatform/ActorSession.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/ApplicationInstance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/aksonov/mages/chess/CustomTypes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event/EndEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/conf/apps.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/conf/platform.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/entities" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/connection/ConnectionManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services/IGameServer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/EndAI.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mages.iml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/IDManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event/impl/JoinEventImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/tools/StdoutLogger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/impl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/Create.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/listener/OnEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event/StartEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/lib/com.springsource.com.mysql.jdbc-5.1.6.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mages.ipr" afterPath="$PROJECT_DIR$/Mages.ipr" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/connection/DataReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/impl/ActorSessionImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/tools" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/bluetooth/miniplatform/ApplicationInstanceInfos.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/aksonov/mages/chess/server/Server.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services/gasp/IGASPServerConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/InGameCombined.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/resources/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/LobbyOutput.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/Session.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/Lobby.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/lib/log4j-1.2.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/tools/Log.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/bluetooth/miniplatform/IDManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/MasterApplicationInstance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/impl/MasterApplicationInstanceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/org/aksonov/mages/services/gasp/GASPGameServer.java" afterPath="$PROJECT_DIR$/client/src/org/aksonov/mages/services/gasp/GASPGameServer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event/impl/QuitEventImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org/aksonov/mages" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/aksonov/mages/connect4/server/Server.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/entities/Custom.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/listener/OnEndEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/InGameOutput.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/conf/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/lib/.cvsignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services/ILocalServerConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/impl/PlatformImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/moods" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/utils/ApplicationInstanceInfos.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/StartAI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/bluetooth/miniplatform/ApplicationInstance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/MoodsSerializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/org/aksonov/mages/connection/CustomTypesRequestEntity.java" afterPath="$PROJECT_DIR$/client/src/org/aksonov/mages/connection/CustomTypesRequestEntity.java" />
+    </list>
     <ignored path=".idea/workspace.xml" />
-    <ignored path="$USER_HOME_GRAILS$/" />
-    <ignored path="$USER_HOME_GRIFFON$/" />
     <ignored path="Mages.iws" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +232,7 @@
   </component>
   <component name="DebuggerManager">
     <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/org/aksonov/mages/services/chess/LocalChessServerService.java" line="54" class="org.aksonov.mages.services.chess.LocalChessServerService$1" package="org.aksonov.mages.services.chess">
+      <breakpoint url="file://$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/impl/DBManagerImpl.java" line="24" class="Class at DBManagerImpl.java:24" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -48,7 +245,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/org/aksonov/mages/services/chess/LocalChessServerService.java" line="70" class="org.aksonov.mages.services.chess.LocalChessServerService" package="org.aksonov.mages.services.chess">
+      <breakpoint url="file://$PROJECT_DIR$/client/src/org/aksonov/mages/connection/ConnectionManager.java" line="169" class="org.aksonov.mages.connection.ConnectionManager" package="org.aksonov.mages.connection">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -61,7 +258,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/org/aksonov/mages/services/LocalGameServer.java" line="559" class="org.aksonov.mages.services.LocalGameServer" package="org.aksonov.mages.services">
+      <breakpoint url="file://$PROJECT_DIR$/client/src/org/aksonov/mages/services/gasp/GASPGameServer.java" line="988" class="org.aksonov.mages.services.gasp.GASPGameServer" package="org.aksonov.mages.services.gasp">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -74,7 +271,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/org/aksonov/mages/LocalServerConfigure.java" line="153" class="org.aksonov.mages.LocalServerConfigure$2" package="org.aksonov.mages">
+      <breakpoint url="file://$PROJECT_DIR$/client/src/org/aksonov/mages/services/gasp/GASPGameServer.java" line="965" class="org.aksonov.mages.services.gasp.GASPGameServer" package="org.aksonov.mages.services.gasp">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -87,7 +284,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/org/aksonov/mages/tools/AndroidLogger.java" line="64" class="org.aksonov.mages.tools.AndroidLogger" package="org.aksonov.mages.tools">
+      <breakpoint url="file://$PROJECT_DIR$/client/src/org/aksonov/mages/services/gasp/GASPGameServerService.java" line="70" class="org.aksonov.mages.services.gasp.GASPGameServerService$1" package="org.aksonov.mages.services.gasp">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -100,7 +297,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/org/aksonov/mages/services/LocalGameServer.java" line="442" class="org.aksonov.mages.services.LocalGameServer" package="org.aksonov.mages.services">
+      <breakpoint url="file://$PROJECT_DIR$/client/src/org/aksonov/mages/services/gasp/GASPGameServerService.java" line="75" class="org.aksonov.mages.services.gasp.GASPGameServerService$1" package="org.aksonov.mages.services.gasp">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -113,7 +310,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/org/aksonov/mages/services/LocalGameServer.java" line="789" class="org.aksonov.mages.services.LocalGameServer" package="org.aksonov.mages.services">
+      <breakpoint url="file://$PROJECT_DIR$/client/src/org/aksonov/mages/services/gasp/GASPGameServer.java" line="440" class="org.aksonov.mages.services.gasp.GASPGameServer" package="org.aksonov.mages.services.gasp">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -126,7 +323,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/org/aksonov/mages/services/LocalGameServer.java" line="433" class="org.aksonov.mages.services.LocalGameServer" package="org.aksonov.mages.services">
+      <breakpoint url="file://$PROJECT_DIR$/client/src/org/aksonov/mages/services/gasp/GASPGameServer.java" line="174" class="org.aksonov.mages.services.gasp.GASPGameServer$1" package="org.aksonov.mages.services.gasp">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -139,7 +336,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/org/aksonov/mages/services/LocalGameServer.java" line="723" class="org.aksonov.mages.services.LocalGameServer" package="org.aksonov.mages.services">
+      <breakpoint url="file://$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/impl/DBManagerImpl.java" line="220" class="org.mega.gasp.platform.impl.DBManagerImpl" package="org.mega.gasp.platform.impl">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -152,7 +349,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/org/aksonov/mages/services/LocalGameServer.java" line="138" class="org.aksonov.mages.services.LocalGameServer$1" package="org.aksonov.mages.services">
+      <breakpoint url="file://$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/impl/DBManagerImpl.java" line="114" class="org.mega.gasp.platform.impl.DBManagerImpl" package="org.mega.gasp.platform.impl">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -165,7 +362,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/org/aksonov/mages/services/LocalGameServer.java" line="204" class="org.aksonov.mages.services.LocalGameServer" package="org.aksonov.mages.services">
+      <breakpoint url="file://$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/impl/DBManagerImpl.java" line="51" class="org.mega.gasp.platform.impl.DBManagerImpl" package="org.mega.gasp.platform.impl">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -178,7 +375,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/org/aksonov/mages/Lobby.java" line="785" class="org.aksonov.mages.Lobby$10" package="org.aksonov.mages">
+      <breakpoint url="file://$PROJECT_DIR$/client/src/org/aksonov/mages/services/gasp/GASPGameServer.java" line="932" class="org.aksonov.mages.services.gasp.GASPGameServer" package="org.aksonov.mages.services.gasp">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -191,7 +388,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/org/aksonov/mages/InGame.java" line="528" class="org.aksonov.mages.InGame" package="org.aksonov.mages">
+      <breakpoint url="file://$PROJECT_DIR$/client/src/org/aksonov/mages/connection/ConnectionManager.java" line="121" class="org.aksonov.mages.connection.ConnectionManager" package="org.aksonov.mages.connection">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -204,7 +401,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/org/aksonov/mages/connection/ConnectionManager.java" line="93" class="org.aksonov.mages.connection.ConnectionManager" package="org.aksonov.mages.connection">
+      <breakpoint url="file://$PROJECT_DIR$/client/src/org/aksonov/mages/services/gasp/GASPGameServer.java" line="917" class="org.aksonov.mages.services.gasp.GASPGameServer" package="org.aksonov.mages.services.gasp">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -217,7 +414,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/org/aksonov/mages/services/gasp/GASPGameServer.java" line="988" class="org.aksonov.mages.services.gasp.GASPGameServer" package="org.aksonov.mages.services.gasp">
+      <breakpoint url="file://$PROJECT_DIR$/client/src/org/aksonov/mages/services/gasp/GASPGameServer.java" line="190" class="org.aksonov.mages.services.gasp.GASPGameServer$1" package="org.aksonov.mages.services.gasp">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -230,7 +427,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/org/aksonov/mages/services/gasp/GASPGameServer.java" line="986" class="org.aksonov.mages.services.gasp.GASPGameServer" package="org.aksonov.mages.services.gasp">
+      <breakpoint url="file://$PROJECT_DIR$/client/src/org/aksonov/mages/services/gasp/GASPGameServer.java" line="196" class="org.aksonov.mages.services.gasp.GASPGameServer$1" package="org.aksonov.mages.services.gasp">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -243,7 +440,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/org/aksonov/mages/services/gasp/GASPGameServer.java" line="965" class="org.aksonov.mages.services.gasp.GASPGameServer" package="org.aksonov.mages.services.gasp">
+      <breakpoint url="file://$PROJECT_DIR$/client/src/org/aksonov/mages/services/gasp/GASPGameServer.java" line="1026" class="org.aksonov.mages.services.gasp.GASPGameServer" package="org.aksonov.mages.services.gasp">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -256,7 +453,33 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/org/aksonov/tools/Log.java" line="41" class="org.aksonov.tools.Log" package="org.aksonov.tools">
+      <breakpoint url="file://$PROJECT_DIR$/client/src/org/aksonov/mages/services/gasp/GASPGameServer.java" line="224" class="org.aksonov.mages.services.gasp.GASPGameServer" package="org.aksonov.mages.services.gasp">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/CreateAI.java" line="73" class="org.mega.gasp.platform.servlets.CreateAI" package="org.mega.gasp.platform.servlets">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/CreateAI.java" line="66" class="org.mega.gasp.platform.servlets.CreateAI" package="org.mega.gasp.platform.servlets">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -303,116 +526,99 @@
       </breakpoint>
     </breakpoint_any>
     <breakpoint_rules />
-    <ui_properties>
-      <property name="line_breakpoints_groupByMethods" value="false" />
-      <property name="line_breakpoints_viewId" value="TABLE" />
-      <property name="exception_breakpoints_flattenPackages" value="true" />
-      <property name="method_breakpoints_flattenPackages" value="true" />
-      <property name="field_breakpoints_flattenPackages" value="true" />
-      <property name="exception_breakpoints_groupByMethods" value="false" />
-      <property name="line_breakpoints_groupByClasses" value="true" />
-      <property name="field_breakpoints_groupByMethods" value="false" />
-      <property name="method_breakpoints_viewId" value="TABLE" />
-      <property name="line_breakpoints_flattenPackages" value="true" />
-      <property name="field_breakpoints_groupByClasses" value="true" />
-      <property name="method_breakpoints_groupByClasses" value="true" />
-      <property name="exception_breakpoints_viewId" value="TABLE" />
-      <property name="field_breakpoints_viewId" value="TABLE" />
-      <property name="exception_breakpoints_groupByClasses" value="true" />
-      <property name="method_breakpoints_groupByMethods" value="false" />
-    </ui_properties>
+    <ui_properties />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="Mages" />
   </component>
-  <component name="FileColors" enabled="false" enabledForTabs="false" />
+  <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="ConnectionManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/aksonov/mages/connection/ConnectionManager.java">
+        <entry file="file://$PROJECT_DIR$/client/src/org/aksonov/mages/connection/ConnectionManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="0" selection-start="2409" selection-end="2409" vertical-scroll-proportion="0.0">
+            <state line="104" column="0" selection-start="2926" selection-end="2926" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Log.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/aksonov/tools/Log.java">
+      <file leaf-file-name="settings.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/res/xml/settings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.0">
+            <state line="14" column="17" selection-start="437" selection-end="437" vertical-scroll-proportion="0.53846157">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lobby.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/aksonov/mages/Lobby.java">
+      <file leaf-file-name="UrlEncodedFormEntity.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME_GRIFFON$/aksonov/Tools/android-sdk-mac_86/platforms/android-8/android.jar!/org/apache/http/client/entity/UrlEncodedFormEntity.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="284" column="15" selection-start="7719" selection-end="7719" vertical-scroll-proportion="0.0">
+            <state line="5" column="77" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GASPServerConfigure.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/aksonov/mages/GASPServerConfigure.java">
+      <file leaf-file-name="StringEntity.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME_GRIFFON$/aksonov/Tools/android-sdk-mac_86/platforms/android-8/android.jar!/org/apache/http/entity/StringEntity.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="191" column="64" selection-start="5511" selection-end="5511" vertical-scroll-proportion="0.023391813">
+            <state line="5" column="20" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidLogger.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/aksonov/mages/tools/AndroidLogger.java">
+      <file leaf-file-name="CustomTypesRequestEntity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/org/aksonov/mages/connection/CustomTypesRequestEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="0" selection-start="1603" selection-end="1642" vertical-scroll-proportion="0.0">
+            <state line="36" column="48" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <file leaf-file-name="DataInputStream.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home/src.jar!/src/java/io/DataInputStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="66" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
+            <state line="33" column="11" selection-start="985" selection-end="985" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <file leaf-file-name="HttpEntity.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME_GRIFFON$/aksonov/Tools/android-sdk-mac_86/platforms/android-8/android.jar!/org/apache/http/HttpEntity.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="99" selection-start="6035" selection-end="6035" vertical-scroll-proportion="0.0">
+            <state line="13" column="86" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LocalGameServer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/aksonov/mages/services/LocalGameServer.java">
+      <file leaf-file-name="GASPGameServer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/org/aksonov/mages/services/gasp/GASPGameServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="268" column="0" selection-start="7018" selection-end="7018" vertical-scroll-proportion="0.0">
+            <state line="936" column="37" selection-start="24329" selection-end="24329" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Log.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../Tools/android-sdk-mac_86/platforms/android-8/android.jar!/android/util/Log.class">
+      <file leaf-file-name="SparseArray.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME_GRIFFON$/aksonov/Tools/android-sdk-mac_86/platforms/android-8/android.jar!/android/util/SparseArray.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="22" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.0">
+            <state line="11" column="13" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="waiting_players.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/waiting_players.xml">
+      <file leaf-file-name="CreateAI.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/CreateAI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
+            <state line="135" column="0" selection-start="4836" selection-end="4836" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -425,27 +631,34 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="GIT_EXECUTABLE" value="/opt/local/bin/git" />
+    <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/org/aksonov/mages/LocalServerConfigure.java" />
-        <option value="$PROJECT_DIR$/src/org/aksonov/mages/GASPServerConfigure.java" />
-        <option value="$PROJECT_DIR$/src/org/aksonov/mages/tools/ServerListXmlLoader.java" />
-        <option value="$PROJECT_DIR$/src/org/aksonov/mages/tools/GameSettingsAdapter.java" />
-        <option value="$PROJECT_DIR$/src/org/aksonov/mages/services/gasp/InGameTask.java" />
-        <option value="$PROJECT_DIR$/src/org/aksonov/mages/services/GamePlayer.java" />
-        <option value="$PROJECT_DIR$/src/org/aksonov/mages/services/gasp/SenderTask.java" />
-        <option value="$PROJECT_DIR$/src/org/aksonov/mages/services/connect4/test/RobotConnect4Player.java" />
-        <option value="$PROJECT_DIR$/gen/org/aksonov/mages/R.java" />
-        <option value="$PROJECT_DIR$/src/org/aksonov/mages/view/chess/ChessView.java" />
-        <option value="$PROJECT_DIR$/src/org/aksonov/mages/InGame.java" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/src/org/aksonov/tools/Log.java" />
-        <option value="$PROJECT_DIR$/src/org/aksonov/mages/tools/AndroidLogger.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/org/aksonov/mages/services/gasp/GASPGameServer.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/client/midp/GASPClient.java" />
+        <option value="$PROJECT_DIR$/common/src/org/aksonov/mages/entities/Note.java" />
+        <option value="$PROJECT_DIR$/common/src/org/aksonov/mages/entities/Move.java" />
+        <option value="$PROJECT_DIR$/common/src/org/aksonov/mages/entities/GameSettings.java" />
+        <option value="$PROJECT_DIR$/common/src/org/aksonov/mages/entities/Custom.java" />
+        <option value="$PROJECT_DIR$/common/src/org/aksonov/mages/entities/PlayerInfo.java" />
+        <option value="$PROJECT_DIR$/client/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/server/src/main/resources/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/server/src/main/java/conf/platform.properties" />
+        <option value="$PROJECT_DIR$/server/src/main/java/conf/log4j.properties" />
+        <option value="$PROJECT_DIR$/client/res/xml/settings.xml" />
+        <option value="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/impl/DBManagerImpl.java" />
+        <option value="$PROJECT_DIR$/client/src/org/aksonov/mages/services/gasp/GASPGameServer.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/CreateAI.java" />
+        <option value="$PROJECT_DIR$/client/src/org/aksonov/mages/connection/CustomTypesRequestEntity.java" />
+        <option value="$PROJECT_DIR$/client/src/org/aksonov/mages/connection/ConnectionManager.java" />
       </list>
     </option>
+  </component>
+  <component name="InspectionPassRegistrar">
+    <option name="LOAD_NEW_PROBLEMS" value="true" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -457,9 +670,6 @@
   <component name="ModuleEditorState">
     <option name="LAST_EDITED_MODULE_NAME" />
     <option name="LAST_EDITED_TAB_NAME" />
-  </component>
-  <component name="PackagesPane">
-    <subPane />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -473,389 +683,15 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <OptionsSetting value="true" id="Undo Check Out" />
-    <OptionsSetting value="true" id="Get Latest Version" />
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
-  </component>
-  <component name="ProjectPane">
-    <subPane>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="src" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="org" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="moods" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="src" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="org" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="aksonov" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="src" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="org" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="aksonov" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="src" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="org" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="aksonov" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="view" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="src" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="org" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="aksonov" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="view" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="connect4" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="src" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="org" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="aksonov" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="view" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="chess" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="src" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="org" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="aksonov" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="services" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="src" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="org" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="aksonov" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="services" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="connect4" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="src" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="org" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="aksonov" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="services" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="chess" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="src" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="org" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="aksonov" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="mages" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="services" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="chess" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="test" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-    </subPane>
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
-      <flattenPackages PackagesPane="true" ProjectPane="true" />
+      <flattenPackages />
       <showMembers />
       <showModules />
       <showLibraryContents />
@@ -866,7 +702,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -877,29 +712,60 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Favorites" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="RunManagerConfig.showSettingsBeforeRunnig" value="false" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="copyright" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.externalResources" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="Android Application.Unnamed">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/src/main/java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.aksonov.mages.client" />
+      <recent name="org.aksonov.mages.client.tools" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android Application.client">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="CHOOSE_DEVICE_MANUALLY" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -909,6 +775,40 @@
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" />
+      <extension name="snapshooter" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -926,12 +826,12 @@
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="false" />
+        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" runner="emma" />
+      <extension name="coverage" enabled="false" merge="false" />
       <extension name="snapshooter" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
@@ -947,12 +847,12 @@
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="false" />
+        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" runner="emma" />
+      <extension name="coverage" enabled="false" merge="false" />
       <extension name="snapshooter" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -973,7 +873,7 @@
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="false" />
+        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -996,12 +896,26 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="false" name="Unnamed" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="Mages" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
+      <deployment />
+      <server-settings>
+        <option name="DEPLOY_TOMCAT_MANAGER" value="false" />
+        <option name="BASE_DIRECTORY_NAME" value="" />
+      </server-settings>
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="false" name="client" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="client" />
+      <option name="ACTIVITY_CLASS" value="org.aksonov.mages.Main" />
+      <option name="MODE" value="specific_activity" />
       <option name="CHOOSE_DEVICE_MANUALLY" value="false" />
-      <option name="PREFERRED_AVD" value="" />
+      <option name="PREFERRED_AVD" value="newSDK" />
       <option name="COMMAND_LINE" value="" />
       <option name="WIPE_USER_DATA" value="false" />
       <option name="DISABLE_BOOT_ANIMATION" value="false" />
@@ -1014,52 +928,72 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Android Application.Unnamed" />
-    </list>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="CHOOSE_DEVICE_MANUALLY" value="false" />
-      <option name="PREFERRED_AVD" value="" />
+    <configuration default="false" name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <deployment>
+        <artifact name="server:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="DEPLOY_TOMCAT_MANAGER" value="false" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Mages4a9d1283" />
+      </server-settings>
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50805" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="$USER_HOME_GRIFFON$/aksonov/Tools/apache-tomcat-6.0.26/bin/catalina.sh" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value=" run" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="$USER_HOME_GRIFFON$/aksonov/Tools/apache-tomcat-6.0.26/bin/catalina.sh" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value=" stop" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="$USER_HOME_GRIFFON$/aksonov/Tools/apache-tomcat-6.0.26/bin/catalina.sh" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value=" run" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="$USER_HOME_GRIFFON$/aksonov/Tools/apache-tomcat-6.0.26/bin/catalina.sh" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value=" stop" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="server:Web exploded" />
+        </option>
       </method>
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.client" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
+    </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration default="false" name="Unnamed" type="AndroidRunConfigurationType" factoryName="Android">
-      <module name="Mages" />
-      <option name="ACTIVITY_CLASS" value="org.aksonov.mages.Main" />
-      <option name="CHOOSE_DEVICE_MANUALLY" value="false" />
-      <option name="PREFERRED_AVD" value="NewSDK" />
-      <RunnerSettings RunnerId="AndroidDebugRunner" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="StarteamConfiguration">
-    <option name="SERVER" value="" />
-    <option name="PORT" value="49201" />
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="PROJECT" value="" />
-    <option name="VIEW" value="" />
-    <option name="ALTERNATIVE_WORKING_PATH" value="" />
-    <option name="LOCK_ON_CHECKOUT" value="false" />
-    <option name="UNLOCK_ON_CHECKIN" value="false" />
-  </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -1070,67 +1004,64 @@
     <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
     <option name="IGNORE_SPACES_IN_MERGE" value="false" />
     <option name="DETECT_NESTED_COPIES" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <configuration useDefault="false">$PROJECT_DIR$/../../.subversion</configuration>
+    <configuration useDefault="true">$USER_HOME_GRIFFON$/aksonov/.subversion_IDEA</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
     <supportedVersion>125</supportedVersion>
   </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9954d61c-5f63-4426-bf78-8e6091435050" name="Default" comment="" />
-      <created>1276602566950</created>
-      <updated>1276602566950</updated>
+      <changelist id="94586752-6b76-4b5b-958e-9faaf1a55781" name="Default" comment="" />
+      <created>1281273370970</created>
+      <updated>1281273370970</updated>
     </task>
     <servers />
   </component>
-  <component name="TodoView" selected-index="0">
-    <todo-panel id="selected-file">
-      <are-packages-shown value="false" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="default-changelist">
-      <are-packages-shown value="false" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="false" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="967" extended-state="0" />
+    <frame x="3" y="22" width="1280" height="698" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32871974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3995272" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39965397" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286052" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24906467" sideWeight="0.6643026" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33577237" sideWeight="0.65916955" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286052" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32742316" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Tapestry" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293979" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Web Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32871974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1143,11 +1074,11 @@
     <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
-    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
     <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="combined three modules" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1160,40 +1091,7 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-  </component>
-  <component name="VssConfiguration">
-    <option name="CLIENT_PATH" value="" />
-    <option name="SRCSAFEINI_PATH" value="" />
-    <option name="USER_NAME" value="" />
-    <option name="PWD" value="" />
-    <CheckoutOptions>
-      <option name="COMMENT" value="" />
-      <option name="DO_NOT_GET_LATEST_VERSION" value="false" />
-      <option name="REPLACE_WRITABLE" value="false" />
-      <option name="RECURSIVE" value="false" />
-    </CheckoutOptions>
-    <CheckinOptions>
-      <option name="COMMENT" value="" />
-      <option name="KEEP_CHECKED_OUT" value="false" />
-      <option name="RECURSIVE" value="false" />
-    </CheckinOptions>
-    <AddOptions>
-      <option name="STORE_ONLY_LATEST_VERSION" value="false" />
-      <option name="CHECK_OUT_IMMEDIATELY" value="false" />
-    </AddOptions>
-    <UndocheckoutOptions>
-      <option name="MAKE_WRITABLE" value="false" />
-      <option name="REPLACE_LOCAL_COPY" value="2" />
-      <option name="RECURSIVE" value="false" />
-    </UndocheckoutOptions>
-    <GetOptions>
-      <option name="REPLACE_WRITABLE" value="0" />
-      <option name="MAKE_WRITABLE" value="false" />
-      <option name="ANSWER_NEGATIVELY" value="false" />
-      <option name="ANSWER_POSITIVELY" value="false" />
-      <option name="RECURSIVE" value="false" />
-      <option name="VERSION" />
-    </GetOptions>
+    <MESSAGE value="combined three modules" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1203,84 +1101,96 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/aksonov/mages/services/chess/LocalChessServerService.java">
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/DBManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="13" selection-start="1454" selection-end="1454" vertical-scroll-proportion="0.0" />
+        <state line="71" column="0" selection-start="1880" selection-end="1880" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/aksonov/mages/view/chess/ChessView.java">
+    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home/src.jar!/src/java/sql/Connection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="56" selection-start="2965" selection-end="2965" vertical-scroll-proportion="0.0" />
+        <state line="84" column="0" selection-start="3865" selection-end="3865" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/aksonov/mages/view/BoardView.java">
+    <entry file="jar://$PROJECT_DIR$/server/lib/com.springsource.com.mysql.jdbc-5.1.6.jar!/com/mysql/jdbc/ConnectionImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="22" selection-start="1462" selection-end="1462" vertical-scroll-proportion="0.0" />
+        <state line="195" column="30" selection-start="10267" selection-end="10267" vertical-scroll-proportion="-3.2083333" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/aksonov/mages/view/connect4/Connect4View.java">
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/FirstLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="13" selection-start="1531" selection-end="1531" vertical-scroll-proportion="0.0" />
+        <state line="83" column="0" selection-start="3269" selection-end="3269" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/aksonov/tools/Logger.java">
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/impl/DBManagerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="17" selection-start="947" selection-end="947" vertical-scroll-proportion="0.0" />
+        <state line="193" column="0" selection-start="5621" selection-end="5621" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/aksonov/mages/services/gasp/GASPGameServer.java">
+    <entry file="file://$PROJECT_DIR$/client/src/org/aksonov/mages/Lobby.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="411" column="126" selection-start="10425" selection-end="10425" vertical-scroll-proportion="0.0" />
+        <state line="314" column="0" selection-start="8600" selection-end="8600" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/aksonov/mages/connection/ConnectionManager.java">
+    <entry file="file://$PROJECT_DIR$/client/src/org/aksonov/mages/connection/ConnectionManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="0" selection-start="2409" selection-end="2409" vertical-scroll-proportion="0.0" />
+        <state line="104" column="0" selection-start="2926" selection-end="2926" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/aksonov/tools/Log.java">
+    <entry file="jar://$USER_HOME_GRIFFON$/aksonov/Tools/android-sdk-mac_86/platforms/android-8/android.jar!/org/apache/http/client/entity/UrlEncodedFormEntity.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.0" />
+        <state line="5" column="77" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/aksonov/mages/Lobby.java">
+    <entry file="jar://$USER_HOME_GRIFFON$/aksonov/Tools/android-sdk-mac_86/platforms/android-8/android.jar!/org/apache/http/entity/StringEntity.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="284" column="15" selection-start="7719" selection-end="7719" vertical-scroll-proportion="0.0" />
+        <state line="5" column="20" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/aksonov/mages/tools/AndroidLogger.java">
+    <entry file="file://$PROJECT_DIR$/client/src/org/aksonov/mages/connection/CustomTypesRequestEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1603" selection-end="1642" vertical-scroll-proportion="0.0" />
+        <state line="36" column="48" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home/src.jar!/src/java/io/DataInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="66" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0" />
+        <state line="33" column="11" selection-start="985" selection-end="985" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+    <entry file="jar://$USER_HOME_GRIFFON$/aksonov/Tools/android-sdk-mac_86/platforms/android-8/android.jar!/org/apache/http/HttpEntity.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="99" selection-start="6035" selection-end="6035" vertical-scroll-proportion="0.0" />
+        <state line="13" column="86" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/aksonov/mages/services/LocalGameServer.java">
+    <entry file="file://$PROJECT_DIR$/client/src/org/aksonov/mages/services/gasp/GASPGameServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="268" column="0" selection-start="7018" selection-end="7018" vertical-scroll-proportion="0.0" />
+        <state line="936" column="37" selection-start="24329" selection-end="24329" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../Tools/android-sdk-mac_86/platforms/android-8/android.jar!/android/util/Log.class">
+    <entry file="jar://$USER_HOME_GRIFFON$/aksonov/Tools/android-sdk-mac_86/platforms/android-8/android.jar!/android/util/SparseArray.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="22" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.0" />
+        <state line="11" column="13" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/waiting_players.xml">
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/CreateAI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0" />
+        <state line="135" column="0" selection-start="4836" selection-end="4836" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/aksonov/mages/GASPServerConfigure.java">
+    <entry file="file://$PROJECT_DIR$/client/res/xml/settings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="191" column="64" selection-start="5511" selection-end="5511" vertical-scroll-proportion="0.023391813">
+        <state line="14" column="17" selection-start="437" selection-end="437" vertical-scroll-proportion="0.53846157">
           <folding />
         </state>
       </provider>
@@ -1295,10 +1205,12 @@
               <option name="proportions">
                 <list>
                   <option value="0.2" />
+                  <option value="0.5" />
                 </list>
               </option>
             </SplitterProportionsDataImpl>
           </splitter-proportions>
+          <last-edited>server:Web exploded</last-edited>
           <settings />
         </UIState>
       </state>
@@ -1307,6 +1219,20 @@
           <splitter-proportions>
             <SplitterProportionsDataImpl />
           </splitter-proportions>
+        </UIState>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <UIState>
+          <splitter-proportions>
+            <SplitterProportionsDataImpl>
+              <option name="proportions">
+                <list>
+                  <option value="0.2" />
+                </list>
+              </option>
+            </SplitterProportionsDataImpl>
+          </splitter-proportions>
+          <last-edited>1.5</last-edited>
         </UIState>
       </state>
       <state key="ScopeChooserConfigurable.UI">

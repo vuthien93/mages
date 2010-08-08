@@ -55,7 +55,7 @@
 				<action
 					android:name="org.aksonov.mages.services.gasp.IGASPServerConfiguration" />
 				<action
-					android:name="com.aksonov.gasp.client.service.IGameServer" />
+					android:name="com.aksonov.gasp.service.IGameServer" />
 			</intent-filter>
 			<intent-filter>
 				<action android:name="mages.intent.action.CONFIGURE" />
