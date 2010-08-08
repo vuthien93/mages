@@ -22,19 +22,19 @@
  */
 package org.aksonov.mages.connection;
 
-import java.io.DataOutputStream;
-import java.io.IOException;
-import java.io.OutputStream;
+import java.io.*;
 
 import org.aksonov.mages.Helper;
 import org.aksonov.tools.Log;
+import org.apache.http.Header;
+import org.apache.http.HttpEntity;
 import org.mega.gasp.moods.CustomTypes;
 
 // TODO: Auto-generated Javadoc
 /**
  * The Class CustomTypesRequestEntity.
  */
-public class CustomTypesRequestEntity {
+public class CustomTypesRequestEntity implements HttpEntity {
 	
 	/** The custom types. */
 	private final CustomTypes customTypes;
@@ -61,34 +61,55 @@ public class CustomTypesRequestEntity {
 		return -1;
 	}
 
-	/* (non-Javadoc)
-	 * @see org.apache.commons.httpclient.methods.RequestEntity#getContentType()
-	 */
-	
-	public String getContentType() {
-		return "application/binary";
-	}
+    @Override
+    public Header getContentType() {
+        return null;  //To change body of implemented methods use File | Settings | File Templates.
+    }
 
-	/* (non-Javadoc)
-	 * @see org.apache.commons.httpclient.methods.RequestEntity#isRepeatable()
-	 */
+
+    @Override
+    public Header getContentEncoding() {
+        return null;  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
+    public InputStream getContent() throws IOException, IllegalStateException {
+        return null;
+    }
+
+    @Override
+    public void writeTo(OutputStream outputStream) throws IOException {
+        DataOutputStream dos = new DataOutputStream(outputStream);
+        try {
+            Helper.encode(data, dos, customTypes);
+        } catch (Exception e) {
+            Log.e("CustomTypesRequestEntity", e);
+        }
+        dos.flush();
+    }
+
+    @Override
+    public boolean isStreaming() {
+        return false;  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
+    public void consumeContent() throws IOException {
+        //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    /* (non-Javadoc)
+      * @see org.apache.commons.httpclient.methods.RequestEntity#isRepeatable()
+      */
 	
 	public boolean isRepeatable() {
 		return true;
 	}
 
-	/* (non-Javadoc)
-	 * @see org.apache.commons.httpclient.methods.RequestEntity#writeRequest(java.io.OutputStream)
-	 */
-	
-	public void writeRequest(OutputStream stream) throws IOException {
-		DataOutputStream dos = new DataOutputStream(stream);
-		try {
-			Helper.encode(data, dos, customTypes);
-		} catch (Exception e) {
-			Log.e("CustomTypesRequestEntity", e);
-		}
-		dos.flush();
-	}
+    @Override
+    public boolean isChunked() {
+        return false;  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
 
 }

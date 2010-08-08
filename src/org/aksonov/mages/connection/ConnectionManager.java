@@ -30,9 +30,19 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.aksonov.tools.Log;
 import org.apache.http.HttpConnection;
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.NameValuePair;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.message.BasicNameValuePair;
 
 
 // TODO: Auto-generated Javadoc
@@ -91,6 +101,7 @@ public class ConnectionManager {
 	 * @throws Exception the exception
 	 */
 	public static int readShort(String host, String servlet, String formData) throws Exception {
+        Log.i("ConnectionManager", "Host: " + host + ", URL:" + servlet + ", formData: " + formData);
 		return (Integer) readGet(host, servlet, formData, shortReader);
 	}
 
@@ -107,6 +118,7 @@ public class ConnectionManager {
 	 * @throws Exception the exception
 	 */
 	public static int readShort(String host, String servlet, String formData, CustomTypesRequestEntity requestEntity) throws Exception {
+        Log.i("ConnectionManager", "Host: " + host + ", URL:" + servlet + ", POST formData: " + formData);
 		return (Integer) readPost(host, servlet, formData, requestEntity, shortReader);
 	}
 	
@@ -198,28 +210,27 @@ public class ConnectionManager {
 			DataReader reader) throws Exception {
 
 		Object result = null;
-		URL url = null;
-		          try {
-		               url = new URL(host + "/" + servlet + "?" + formData);
-		          } catch (MalformedURLException e) {
-		               Log.e("error", e.getMessage());
-		          }
+        HttpClient httpclient = new DefaultHttpClient();
+        String url = host + "/" + servlet + "?" + formData;
+        Log.i("ConnectionManager", "POST request to " + url);
+       HttpPost httppost = new HttpPost(url);
 
-		          if (url != null) {
-		               try {
-		                    HttpURLConnection urlConn = (HttpURLConnection) url
-		                              .openConnection();
-		    				DataInputStream stream = new DataInputStream(urlConn.getInputStream());
+                httppost.setEntity(requestEntity);
+
+                // Execute HTTP Post Request
+                HttpResponse response = httpclient.execute(httppost);
+        HttpEntity entity = response.getEntity();
+
+        if (entity != null){
+            Log.e("ConnectionManager", "reading result from stream");
+		    				DataInputStream stream = new DataInputStream(entity.getContent());
 		                    result = reader.read(stream);
 		    				
 		    				stream.close();
-		                    urlConn.disconnect();
-
-		               } catch (IOException e) {
-		                    Log.e("error", e.getMessage());
-		               }	
-		               
-		          }
+            entity.consumeContent();
+		          } else {
+            Log.e("ConnectionManager", "entity is null!");
+        }
 		          return result;
 	}	
 }
