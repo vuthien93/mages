@@ -40,179 +40,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="94586752-6b76-4b5b-958e-9faaf1a55781" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/Name.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/EventListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event/impl/DataEventImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/Helper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/Actor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/aksonov/mages/chess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event/impl/EndEventImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/GameTimerCallback.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event/impl/StartEventImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event/Event.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/Quit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/BaseGameTimerCallback.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/utils" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/listener/OnJoinEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/InGame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/lib/commons-httpclient-3.1.jar" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services/IGamePlayer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services/IGamePlayerFactory.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/libs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/assets" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services/gasp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services/IPlayerLobbyListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services/IPlayerGameListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/gen/org/aksonov/mages/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services/gasp/IGASPServerConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services/ILocalServerConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/gen/org/aksonov/mages" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services/Test.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mages.iws" afterPath="$PROJECT_DIR$/Mages.iws" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/aksonov/mages/chess/server" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/resources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/connection" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/GameTimer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/mega/gasp/moods" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/PlatformState.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event/impl/EventImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/moods/CustomTypes.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/Join.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/Board.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/entities/GameEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/tools/Logger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/aksonov/mages/connect4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/connection/CustomTypesRequestEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services/IPlayerGameListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/Lobby.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/aksonov" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/resources/WEB-INF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/impl/ActorImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/impl/LobbyImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event/JoinEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/chess/ChessBoard.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/impl/SessionImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/DBManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/listener/OnStartEvent.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/db/gaspdb.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/org/aksonov/mages/connection/ConnectionManager.java" afterPath="$PROJECT_DIR$/client/src/org/aksonov/mages/connection/ConnectionManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/server.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/aksonov/mages/server/Log4Logger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/bluetooth" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/server/GASPServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event/QuitEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/connect4/Connect4Board.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org/aksonov" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/FirstLogin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/InGameInput.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/utils/PropertiesReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/aksonov/mages/connect4/server" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/entities/Note.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/server" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services/gasp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/aksonov/mages/connect4/CustomTypes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/impl/ApplicationInstanceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/impl/IDManagerImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/listener" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/listener/OnQuitEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/client" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/entities/PlayerInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/CreateAI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/mega/gasp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/client.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/moods/CustomTypes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/aksonov/mages/server" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/tools/ChunkedClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/entities/GameSettings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/BaseBoard.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/listener/OnDataEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/impl/DBManagerImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/mega/gasp/moods/CustomTypes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/Login.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event/DataEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org/aksonov/mages/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/mega" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services/IPlayerLobbyListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/Invite.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/aksonov/mages" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services/IGamePlayerFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services/IGamePlayer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/res/xml/settings.xml" afterPath="$PROJECT_DIR$/client/res/xml/settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/entities/Move.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/ActorSession.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/aksonov/mages/server/MagesServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/connect4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event/impl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/chess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/GameCustomTypes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/common.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/ChatServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/Platform.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/QuitAI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/bluetooth/miniplatform" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/DataSender.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/bluetooth/miniplatform/ActorSession.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/ApplicationInstance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/aksonov/mages/chess/CustomTypes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event/EndEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/conf/apps.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/conf/platform.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/entities" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/connection/ConnectionManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services/IGameServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/EndAI.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Mages.iml" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/IDManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event/impl/JoinEventImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/tools/StdoutLogger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/impl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/Create.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/listener/OnEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event/StartEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/lib/com.springsource.com.mysql.jdbc-5.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mages.ipr" afterPath="$PROJECT_DIR$/Mages.ipr" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/connection/DataReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/impl/ActorSessionImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/tools" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/bluetooth/miniplatform/ApplicationInstanceInfos.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/aksonov/mages/chess/server/Server.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services/gasp/IGASPServerConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/InGameCombined.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/resources/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/LobbyOutput.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/Session.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/Lobby.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/lib/log4j-1.2.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/tools/Log.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/bluetooth/miniplatform/IDManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/MasterApplicationInstance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/impl/MasterApplicationInstanceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/org/aksonov/mages/services/gasp/GASPGameServer.java" afterPath="$PROJECT_DIR$/client/src/org/aksonov/mages/services/gasp/GASPGameServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/event/impl/QuitEventImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org/aksonov/mages" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/aksonov/mages/connect4/server/Server.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/entities/Custom.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/listener/OnEndEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/InGameOutput.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/conf/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/lib/.cvsignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services/ILocalServerConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/impl/PlatformImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/moods" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/utils/ApplicationInstanceInfos.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/platform/servlets/StartAI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/main/java/org/mega/gasp/bluetooth/miniplatform/ApplicationInstance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/org/aksonov/mages/MoodsSerializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/org/aksonov/mages/connection/CustomTypesRequestEntity.java" afterPath="$PROJECT_DIR$/client/src/org/aksonov/mages/connection/CustomTypesRequestEntity.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/gen/org/aksonov/mages/services/IGameServer.java" afterPath="" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="Mages.iws" />
@@ -684,7 +526,7 @@
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+    <ConfirmationsSetting value="2" id="Remove" />
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
@@ -708,6 +550,30 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Mages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
