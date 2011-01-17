@@ -9,7 +9,6 @@
         <webroots>
           <root url="file://$MODULE_DIR$/src/main/resources" relative="/" />
         </webroots>
-        <context-artifact name="server:Web exploded" />
       </configuration>
     </facet>
   </component>

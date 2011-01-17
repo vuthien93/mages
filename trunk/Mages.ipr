@@ -48,6 +48,9 @@
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
   <component name="InspectionProjectProfileManager">
     <profiles>
       <profile version="1.0" is_locked="false">
@@ -81,6 +84,7 @@
           <option name="IGNORE_DEPRECATED" value="false" />
           <option name="IGNORE_JAVADOC_PERIOD" value="true" />
           <option name="IGNORE_DUPLICATED_THROWS" value="false" />
+          <option name="IGNORE_POINT_TO_ITSELF" value="false" />
           <option name="myAdditionalJavadocTags" value="" />
         </inspection_tool>
       </profile>
@@ -238,6 +242,37 @@
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchMap">
+                <map>
+                  <entry key="https://mages.googlecode.com/svn/branches">
+                    <value>
+                      <list />
+                    </value>
+                  </entry>
+                  <entry key="https://mages.googlecode.com/svn/tags">
+                    <value>
+                      <list />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://mages.googlecode.com/svn/branches" />
+                  <option value="https://mages.googlecode.com/svn/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://mages.googlecode.com/svn/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="mySupportsUserInfoFilter" value="true" />
   </component>
   <component name="VcsDirectoryMappings">
