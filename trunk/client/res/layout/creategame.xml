@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:padding="10dip">
+
+	<RadioGroup android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		android:checkedButton="@+id/color0" android:id="@+id/menu_player">
+		<RadioButton android:text="@string/observer"
+			android:id="@+id/observer" />
+		<RadioButton android:text="@string/white"
+			android:id="@id/color0" />
+		<RadioButton android:text="@string/black"
+			android:id="@+id/color1" />
+	</RadioGroup>
+
+
+	<TableLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:gravity="center_horizontal" android:stretchColumns="1" android:padding="10dip">
+
+		<TableRow>
+			<TextView android:text="@string/time_per_move" android:textSize="16sp" android:textColor="@color/white" />
+
+			<EditText android:id="@+android:id/time_per_move" android:singleLine="true"
+				android:text="10" android:textSize="12sp" android:layout_width="wrap_content"/>
+
+		</TableRow>
+
+		<TableRow>
+			<TextView android:text="@string/time_per_game" android:textSize="16sp" android:textColor="@color/white" />
+
+			<EditText android:id="@+android:id/time_per_game" android:singleLine="true"
+				android:text="10" android:textSize="12sp" android:layout_width="wrap_content"/>
+
+		</TableRow>
+
+		<TableRow>
+			<TextView android:text="Move increment (sec):" android:textSize="16sp" android:textColor="@color/white" />
+
+			<EditText android:id="@+android:id/move_incr" android:singleLine="true"
+				android:text="0" android:textSize="12sp" android:layout_width="wrap_content"/>
+
+		</TableRow>
+		
+		<TableRow>
+		<CheckBox android:id="@+id/no_limit"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/infinite" />
+
+		<CheckBox android:id="@+id/rated"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/rated" />
+		</TableRow>
+
+	</TableLayout>
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:padding="10dip">
+	</LinearLayout>
+</LinearLayout>
+

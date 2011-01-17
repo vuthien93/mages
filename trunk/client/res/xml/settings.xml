@@ -1,0 +1,15 @@
+<!DOCTYPE settings [
+        <!ELEMENT settings (server)*>
+        <!ELEMENT server (#PCDATA)>
+        <!ATTLIST server
+                app_id CDATA #REQUIRED
+                type CDATA #REQUIRED
+                uri CDATA #REQUIRED>
+        ]>
+<settings>
+	<server type="mages/chess" uri="http://192.168.1.102:8080/servlet"
+	app_id="2" />
+	
+	<server type="mages/connect4" uri="http://192.168.1.102:8080/servlet"
+	app_id="1" />
+</settings>
